@@ -1,3 +1,2 @@
 # `tsconfig`
-
-These are base shared `tsconfig.json`s from which all other `tsconfig.json`'s inherit from.
+基础的 tsconfig.json, 其他所有的 tsconfig.json 集成于此
