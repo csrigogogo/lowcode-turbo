@@ -6,3 +6,9 @@ pnpm install -w -D typescript
 
 ```
 - git 目录构建
+
+## Q & A
+
+Q: turbo build 执行了什么, turbo.json 里面是啥
+
+A: TODO
