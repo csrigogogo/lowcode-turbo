@@ -8,11 +8,15 @@
   ],
   "scripts": {
     "build": "turbo run build",
+    "build:basic": "turbo run --filter @lowcode-turbo/component build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-typescript": "^7.18.6",
     "eslint-config-custom": "workspace:*",
     "prettier": "latest",
     "turbo": "latest",

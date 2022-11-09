@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/Button.tsx"],"sourcesContent":["export default ()  => {\n    return <>\n        <button>1111</button>\n    </>\n}"],"names":["_jsx","_Fragment","button"],"mappings":";;AAAA,aAAe,CAAA,IAAO;IAClB,qBAAOA,GAAA,CAAAC,QAAA,EAAA;AACH,QAAA,QAAA,gBAAAD,GAACE,CAAAA,QAAAA,EAAAA;AAAO,YAAA,QAAA,EAAA,MAAA;;;AAEhB,CAAA;;;;"}
