@@ -7,13 +7,19 @@ import dts from "rollup-plugin-dts"
 // `npm run build` -> `production` is true
 // `npm run dev` -> `production` is false
 const production = !process.env.ROLLUP_WATCH
-
-const path = require("path")
-const pkg = require("./package.json")
+import path from "node:path"
+import { fileURLToPath } from "node:url"
+// import { readFileSync } from "node:fs"
+import pkg from "./package.json" assert { type: "json" } // node 17
 
 const extensions = [".js", ".ts"]
 
 const pathResolve = function (...args) {
+  //   const curDirname = fileURLToPath(new URL("./", import.meta.url))
+  const __filename = fileURLToPath(import.meta.url)
+
+  const __dirname = path.dirname(__filename)
+  console.log(__dirname, args)
   return path.resolve(__dirname, ...args)
 }
 
@@ -27,6 +33,7 @@ export default [
         sourcemap: true,
       },
     ],
+    // external: Object.keys(pkg.dependencies)
     external: ["react/jsx-runtime", "react-dom"], // 打包产物不包含 react 代码
     plugins: [
       resolve({
