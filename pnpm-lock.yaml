@@ -66,7 +66,6 @@ importers:
 
   packages/component:
     specifiers:
-      '@babel/core': ^7.0.0
       '@lowcode-turbo/tsconfig': workspace:^0.0.0
       '@rollup/plugin-commonjs': ^23.0.2
       '@rollup/plugin-node-resolve': ^15.0.1
@@ -80,7 +79,6 @@ importers:
       rollup-plugin-swc3: ^0.7.0
       serve: ^11.3.2
     devDependencies:
-      '@babel/core': 7.19.6
       '@lowcode-turbo/tsconfig': link:../tsconfig
       '@rollup/plugin-commonjs': 23.0.2_rollup@3.2.5
       '@rollup/plugin-node-resolve': 15.0.1_rollup@3.2.5
@@ -90,7 +88,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       rollup: 3.2.5
-      rollup-plugin-dts: 5.0.0_rollup@3.2.5
+      rollup-plugin-dts: 5.0.0_oa2candk7eitu7usnsurwiyuuu
       rollup-plugin-swc3: 0.7.0_y3hks7s4auh7coz2izanzasxyq
       serve: 11.3.2
 
@@ -6879,7 +6877,7 @@ packages:
       inherits: 2.0.4
     dev: true
 
-  /rollup-plugin-dts/5.0.0_rollup@3.2.5:
+  /rollup-plugin-dts/5.0.0_oa2candk7eitu7usnsurwiyuuu:
     resolution: {integrity: sha512-OO8ayCvuJCKaQSShyVTARxGurVVk4ulzbuvz+0zFd1f93vlnWFU5pBMT7HFeS6uj7MvvZLx4kUAarGATSU1+Ng==}
     engines: {node: '>=v14'}
     peerDependencies:
@@ -6888,6 +6886,7 @@ packages:
     dependencies:
       magic-string: 0.26.7
       rollup: 3.2.5
+      typescript: 4.8.4
     optionalDependencies:
       '@babel/code-frame': 7.18.6
     dev: true
