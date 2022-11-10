@@ -12,8 +12,7 @@
     "@lowcode-turbo/component": "workspace:*",
     "next": "12.3.2-canary.40",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "ui": "workspace:*"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -22,7 +21,7 @@
     "@types/react-dom": "^18.0.7",
     "eslint": "7.32.0",
     "eslint-config-custom": "workspace:*",
-    "tsconfig": "workspace:*",
+    "@lowcode-turbo/tsconfig": "workspace:*",
     "typescript": "^4.5.3"
   }
 }
